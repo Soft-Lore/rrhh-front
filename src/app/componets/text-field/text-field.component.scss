@@ -1,0 +1,29 @@
+.text-field-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+}
+
+.text-field-labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+label {
+  color: #fff;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 12px;
+  outline: none;
+  background: none;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
