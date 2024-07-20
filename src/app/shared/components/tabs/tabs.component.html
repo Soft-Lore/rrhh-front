@@ -1,0 +1,9 @@
+<div class="tabs" [ngClass]="getClasses()">
+  <div class="tab-titles">
+    <button [class.block]="orientation === orientations.HORIZONTAL" *ngFor="let tab of tabs; let i = index" (click)="selectTab(i)"
+      [class.active]="tabSelected === i">
+      {{ tab.title }}
+    </button>
+  </div>
+  <div class="tab-content" #tabContent></div>
+</div>
